@@ -7,9 +7,9 @@ cask "redpather" do
   desc "Ultimate Mobile Automation Tool with AI support"
   homepage "https://github.com/selimerdinc/redPather"
 
-  app "RedPather.app"
+  app "dist/RedPather.app"
 
-  binary "#{appdir}/RedPather.app/Contents/MacOS/RedPather", target: "redpather"
+  binary "#{appdir}/dist/RedPather.app/Contents/MacOS/RedPather", target: "redpather"
 
   zap trash: [
     "~/Library/Application Support/RedPather",
