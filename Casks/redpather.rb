@@ -9,7 +9,7 @@ cask "redpather" do
 
   app "dist/RedPather.app"
 
-  binary "#{appdir}/dist/RedPather.app/Contents/MacOS/RedPather", target: "redpather"
+  binary "#{appdir}/RedPather.app/Contents/MacOS/RedPather", target: "redpather"
 
   zap trash: [
     "~/Library/Application Support/RedPather",
