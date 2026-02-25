@@ -1,3 +1,4 @@
+cask "redpather" do
   version "1.3.2"
   sha256 "a1c829a52d10b840ac325db3f431e91236dc99866e9276bc5b575d4b4dd3ea22"
 
