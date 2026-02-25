@@ -1,6 +1,5 @@
-cask "redpather" do
-  version "1.3.1"
-  sha256 "0b6dcb48511b669a12e882e589b9fd8a39c965c605c7c81e14fc25352587781c"
+  version "1.3.2"
+  sha256 "a1c829a52d10b840ac325db3f431e91236dc99866e9276bc5b575d4b4dd3ea22"
 
   url "https://github.com/selimerdinc/redPather/releases/download/v#{version}/RedPather-v#{version}-macOS.zip"
   name "Red Pather"
