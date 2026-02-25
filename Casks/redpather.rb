@@ -1,13 +1,13 @@
 cask "redpather" do
-  version "1.3.0"
-  sha256 "e8b73719a71ce417a3d054a85a0d93044bad52168497ed2c42ee466d01be1a75"
+  version "1.3.1"
+  sha256 "0b6dcb48511b669a12e882e589b9fd8a39c965c605c7c81e14fc25352587781c"
 
   url "https://github.com/selimerdinc/redPather/releases/download/v#{version}/RedPather-v#{version}-macOS.zip"
   name "Red Pather"
   desc "Ultimate Mobile Automation Tool with AI support"
   homepage "https://github.com/selimerdinc/redPather"
 
-  app "dist/RedPather.app"
+  app "RedPather.app"
 
   binary "#{appdir}/RedPather.app/Contents/MacOS/RedPather", target: "redpather"
 
